@@ -5,4 +5,8 @@ public class clsObj1 {
             // Properties
             int health;
       }
+
+      public static void main(String[] args) {
+
+      }
 }
