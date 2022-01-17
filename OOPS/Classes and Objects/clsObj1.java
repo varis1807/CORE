@@ -8,7 +8,7 @@ public class clsObj1 {
 
       public static void main(String[] args) {
 //Creation of object or instance
-Hero h1;
-System.out.println("size : "+);
+Hero h1=new Hero();
+System.out.println(h1.health);
       }
 }
