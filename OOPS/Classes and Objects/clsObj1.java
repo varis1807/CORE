@@ -3,7 +3,7 @@ import java.util.*;
 public class clsObj1 {
       public static class Hero {
             // Properties
-            int health;
+           //int health;
             String name;
       }
 
@@ -11,7 +11,7 @@ public class clsObj1 {
             // Creation of object or instance
             Hero h1 = new Hero();
             Hero n = new Hero();
-            System.out.println(h1.health);
+            System.out.println(h1);
             System.out.println(n.name);
       }
 }
