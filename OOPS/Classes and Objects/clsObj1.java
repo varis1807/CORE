@@ -7,6 +7,8 @@ public class clsObj1 {
       }
 
       public static void main(String[] args) {
-
+//Creation of object or instance
+Hero h1;
+System.out.println("size : "+);
       }
 }
