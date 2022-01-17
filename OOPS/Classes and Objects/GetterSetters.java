@@ -17,9 +17,19 @@ public class GetterSetters {
       }
 
       public void storeSalaryDB(int salary) {
-            //
+            // code for storing the salary in db
             System.out.println("The ");
       }
 
+      public static void main(String[] args) {
+            // creating an obj of the getterSeterEx
+            GetterSetters obj = new GetterSetters();
+
+            obj.setSalary(-500000);
+            int salary = obj.getSalary();
+
+            // Storing salary in the db
+            obj.storeSalaryDB(salary);
+      }
 
 }
