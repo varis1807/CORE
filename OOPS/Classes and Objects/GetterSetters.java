@@ -3,7 +3,7 @@ import java.util.*;
 public class GetterSetters {
       private int salary;
 
-      // A setter methide used to set the value
+      // A setter metho de used to set the value
       void setSalary(int s) {
             if (s < 0)
                   s = -s;
