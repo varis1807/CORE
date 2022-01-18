@@ -40,4 +40,13 @@ public class staticDynamicBinding {
                   System.out.println("print subCls");
             }
       }
+
+      public static void main(String[] args) {
+            // creation of object
+            superCls A = new superCls();
+            superCls B = new subCls();
+
+            A.print();
+            B.print();
+      }
 }
