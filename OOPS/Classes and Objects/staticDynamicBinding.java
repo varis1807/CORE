@@ -34,5 +34,7 @@ public class staticDynamicBinding {
       }
 
       // cls 2
+      public static class subCls extends superCls {
 
+      }
 }
