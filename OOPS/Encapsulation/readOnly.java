@@ -1,9 +1,9 @@
 public class readOnly {
       // private data member
-      private String clg = "AGPCE";
+      private static String clg = "AGPCE";
 
       // getter methode for clg
-      public String getCollege() {
+      public static String getCollege() {
             return clg;
       }
 
