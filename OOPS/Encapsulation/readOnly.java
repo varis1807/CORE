@@ -3,6 +3,6 @@ public class readOnly {
       private String clg="AGPCE";
       //getter methode for clg
       public String getCollege(){
-            
+            return clg;
       }
 }
