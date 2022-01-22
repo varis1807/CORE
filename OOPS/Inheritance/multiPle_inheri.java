@@ -15,12 +15,12 @@ public class multiPle_inheri {
 
       }
 
-      static class C extends A {
+      // static class C extends A {
 
-      }
+      // }
 
-      public static void main(String[] args) {
-            C test = new C();
-            test.func1();
-      }
+      // public static void main(String[] args) {
+      //       C test = new C();
+      //       test.func1();
+      // }
 }
