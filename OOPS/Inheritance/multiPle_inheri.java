@@ -6,10 +6,21 @@ public class multiPle_inheri {
       }
 
       static class B {
-            public static vid func2() {
+            public static void func2() {
                   System.out.println("this is cls B");
             }
       }
 
-      
+      static class C extends B {
+
+      }
+
+      static class C extends A {
+
+      }
+
+      public static void main(String[] args) {
+            C test = new C();
+            test.func1();
+      }
 }
